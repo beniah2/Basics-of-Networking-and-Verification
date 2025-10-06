@@ -17,7 +17,7 @@ You just joined the cybersecurity operations team at a digital forensics lab. Yo
 2.  **Activate the interface (if down)**  
 If your interface shows `state DOWN`, activate it. But, as shown above,the  state UP shows the interface is up and running.
 
-**Command: sudo ip link set dev lo up
+**Command**: sudo ip link set dev lo up
 
 <img width="951" height="153" alt="image" src="https://github.com/user-attachments/assets/0321cbf0-e13f-43f8-91e5-dac2af7b7a27" />
 
@@ -39,7 +39,7 @@ This assigns IP `10.0.0.100` with a subnet mask of `/24` to the loopback interfa
 4. **Verify the IP address assignment**  
 You confirm that the new IP is now active on the interface.
 
-**Command: ip addr show dev lo
+**Command**: ip addr show dev lo
 
 <img width="1350" height="370" alt="image" src="https://github.com/user-attachments/assets/1e2e6a72-da2d-4d10-bb1f-fbceac406bde" />
 
@@ -59,7 +59,7 @@ You check the network routes to verify the gateway and reachable networks.
 6. **Ping the gateway to confirm connectivity**  
 You test if your interface can reach the gateway.
 
-**Command: ping -c 3 10.0.0.1
+**Command**: ping -c 3 10.0.0.1
 
 <img width="1177" height="405" alt="image" src="https://github.com/user-attachments/assets/2a98b41a-3c29-46a3-8642-c1b426411c34" />
 
@@ -69,9 +69,10 @@ You test if your interface can reach the gateway.
 7. **List active listening ports and services**  
  You quickly review which services are listening on your Kali system.
 
-**Command: ss -tuln | head -n 20
+**Command**: ss -tuln | head -n 20
 
-![[Pasted image 20251006165238.png]]
+<img width="1332" height="145" alt="image" src="https://github.com/user-attachments/assets/518725dc-5f24-4b73-8738-d366fd587bde" />
+
 
 ---
 
