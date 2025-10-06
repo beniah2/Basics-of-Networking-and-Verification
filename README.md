@@ -27,7 +27,7 @@ If your interface shows `state DOWN`, activate it. But, as shown above,the  stat
 3. **Assign a test IP address**  
 You add a temporary test IP to the interface.
 
-**Command: sudo ip addr add 10.0.0.100/24 dev lo
+**Command**: sudo ip addr add 10.0.0.100/24 dev lo
 
 <img width="1098" height="208" alt="image" src="https://github.com/user-attachments/assets/eff2e966-1206-4619-b1ca-a1e41fe9ec8a" />
 
@@ -41,16 +41,17 @@ You confirm that the new IP is now active on the interface.
 
 **Command: ip addr show dev lo
 
-![[Pasted image 20251006164414.png]]
+<img width="1350" height="370" alt="image" src="https://github.com/user-attachments/assets/1e2e6a72-da2d-4d10-bb1f-fbceac406bde" />
+
 
 ---
 
 5. **View routing table**  
 You check the network routes to verify the gateway and reachable networks.
 
-**Command: ip route show
+**Command**: ip route show
 
-![[Pasted image 20251006164840.png]]
+
 
 ---
 
