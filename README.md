@@ -51,6 +51,7 @@ You check the network routes to verify the gateway and reachable networks.
 
 **Command**: ip route show
 
+<img width="1343" height="177" alt="image" src="https://github.com/user-attachments/assets/fb6afbe8-c997-47f2-8eb1-03ded5811a10" />
 
 
 ---
