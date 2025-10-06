@@ -61,7 +61,8 @@ You test if your interface can reach the gateway.
 
 **Command: ping -c 3 10.0.0.1
 
-![[Pasted image 20251006164927.png]]
+<img width="1177" height="405" alt="image" src="https://github.com/user-attachments/assets/2a98b41a-3c29-46a3-8642-c1b426411c34" />
+
 
 ---
 
