@@ -19,7 +19,8 @@ If your interface shows `state DOWN`, activate it. But, as shown above,the  stat
 
 **Command: sudo ip link set dev lo up
 
-![[Pasted image 20251006163807.png]]
+<img width="951" height="153" alt="image" src="https://github.com/user-attachments/assets/0321cbf0-e13f-43f8-91e5-dac2af7b7a27" />
+
 
 ---
 
