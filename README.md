@@ -29,7 +29,8 @@ You add a temporary test IP to the interface.
 
 **Command: sudo ip addr add 10.0.0.100/24 dev lo
 
-![[Pasted image 20251006164248.png]]
+<img width="1098" height="208" alt="image" src="https://github.com/user-attachments/assets/eff2e966-1206-4619-b1ca-a1e41fe9ec8a" />
+
 
 This assigns IP `10.0.0.100` with a subnet mask of `/24` to the loopback interface displayed as "lo".
 
