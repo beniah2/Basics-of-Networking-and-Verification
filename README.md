@@ -76,12 +76,13 @@ You test if your interface can reach the gateway.
 
 ---
 
-8. **Cleanup (optional)**  
+8. **Cleanup**  
 After the test, you remove the test IP.
 
-**Command:  sudo ip addr del 10.0.0.100/24 dev  lo
+**Command**:  sudo ip addr del 10.0.0.100/24 dev  lo
 
-![[Pasted image 20251006165816.png]]
+<img width="1353" height="448" alt="image" src="https://github.com/user-attachments/assets/6c3f028e-4499-4aac-927b-a500d26c54db" />
+
 
 
 **Expected Notes:**
