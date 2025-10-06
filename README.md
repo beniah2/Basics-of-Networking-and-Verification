@@ -10,7 +10,8 @@ You just joined the cybersecurity operations team at a digital forensics lab. Yo
 
 **Command:** ip addr show
 
-![[Pasted image 20251006153532.png]]
+
+
 
 ---
 
