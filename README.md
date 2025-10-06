@@ -88,7 +88,7 @@ After the test, you remove the test IP.
 
 **Expected Notes:**
 
-- The new IP `10.0.0.100` appears on `eth0`.
+- The new IP `10.0.0.100` appears on the loopback interface.
     
 - The routing table displays a valid default route through `10.0.0.1`.
     
